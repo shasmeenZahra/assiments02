@@ -1,6 +1,3 @@
-// pages/contact.js
-import Header from './Header';
-import Footer from './Footer';
 import Image from 'next/image';
 import styles from './portfolio.module.css';
 
