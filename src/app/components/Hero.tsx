@@ -10,10 +10,10 @@ const Hero: React.FC<HeroProps> = ({ profileImage = "/profile4.png" }) => (
   <section className={styles.hero}>
     <div className={styles.left}>
       <h1 className={styles.hello}>Hello</h1>
-      <h2 className={styles.heading}>I'm Shasmeen Zhara </h2>
+      <h2 className={styles.heading}>I&apos;sm Shasmeen Zhara </h2>
       <h2 className={styles.subheading}>Frontend Developer</h2>
       <p>
-        "Hello! I’m Shasmeen Zahra, a passionate frontend developer dedicated to
+        "Hello! I&apos;sm Shasmeen Zahra, a passionate frontend developer dedicated to
         creating intuitive, engaging, and visually stunning user experiences.
         With a strong foundation in HTML, CSS, JavaScript, and frameworks like
         React, I bring ideas to life through responsive, accessible, and modern
