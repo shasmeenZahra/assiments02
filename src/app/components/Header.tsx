@@ -1,17 +1,18 @@
 import styles from "./Header.module.css";
+import Link from 'next/link';
 
 const Header = () => (
   <nav className={styles.navbar}>
     <h1 className={styles.logo}>My Portfolio</h1>
       <ul className={styles.navList}>
         <li>
-          <a href="/">Home</a>
+          <Link href="/">Home</Link>
         </li>
         <li>
-          <a href="/About">About</a>
+          <Link href="/About">About</Link>
         </li>
         <li>
-          <a href="/contact">Contact Us</a>
+          <Link href="/contact">Contact Us</Link>
         </li>
       </ul>
   </nav>
